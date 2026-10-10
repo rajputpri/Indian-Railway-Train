@@ -104,6 +104,8 @@ A critical data quality issue was identified during extended EDA:
 
 **Takeaway:** Data quality improvements often outweigh algorithm selection — a fundamental principle in applied machine learning.
 
+## 📁 Project Structure
+
 ---
 ```
 Indian-Railway-Train/
@@ -136,5 +138,5 @@ Indian-Railway-Train/
 ├── MASTER_OPERATING_PROMPT.md         # Project continuity prompt
 └── README.md
 ```
-## 📁 Project Structure
+
 
