@@ -105,5 +105,36 @@ A critical data quality issue was identified during extended EDA:
 **Takeaway:** Data quality improvements often outweigh algorithm selection — a fundamental principle in applied machine learning.
 
 ---
-
+```
+Indian-Railway-Train/
+├── data/
+│   ├── trains.json                    # Original dataset (GeoJSON, 14 MB)
+│   ├── trains.csv                     # Converted CSV (636 KB, used by notebooks)
+│   └── trains_with_clusters.csv       # Output: clustering labels + features
+├── notebooks/
+│   └── main_notebook.ipynb            # Main notebook — all 4 phases
+├── extras/
+│   ├── advanced_ml.ipynb              # Model persistence, CV, error analysis
+│   └── README.md                      # Extras module documentation
+├── models/
+│   ├── scaler.joblib                  # Fitted StandardScaler
+│   └── dt_classifier.joblib           # Trained Decision Tree model
+├── visualizations/                    # 14+ saved plots
+│   ├── model_comparison.png
+│   ├── confusion_matrix.png
+│   ├── roc_curves.png
+│   ├── feature_importance.png
+│   ├── cross_validation.png
+│   ├── elbow_curve.png
+│   ├── clusters_k5_pca.png
+│   ├── dbscan_vs_kmeans.png
+│   ├── error_analysis.png
+│   └── ... (more)
+├── reports/                           # Final report (pending)
+├── requirements.txt                   # Python dependencies
+├── .gitignore
+├── MASTER_OPERATING_PROMPT.md         # Project continuity prompt
+└── README.md
+```
 ## 📁 Project Structure
+
