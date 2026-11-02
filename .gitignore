@@ -20,9 +20,12 @@ env/
 .DS_Store
 Thumbs.db
 
-# Logs
+# Logs & Temp Files
 *.log
-
-# Temporary Files
 *.tmp
 *~
+
+# Project Specific Caches (Important!)
+reports/_pa_audio_cache/
+reports/_ppt_cache/
+reports/_ppt_generated_assets/
